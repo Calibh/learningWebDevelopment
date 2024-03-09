@@ -1,0 +1,32 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    font-size: 1.2em;
+    border-style: solid;
+    border-color: salmon;
+    padding: 0.4rem 0.6rem;
+    border-width: 4px;
+    border-radius: 0.8rem;
+    color: salmon;
+    background-color: white;
+    
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+    transition: transform 0.3s, background-color 0.3s ease-in-out 0.1s, color 0.3s ease-in-out 0.2s, font-size 0.3s ease-in-out, letter-spacing ease-in-out 0.3s;
+
+}
+.btn:hover{
+    transform: translateY(-5px);
+    background-color: salmon;
+    color: white;
+    font-size: 1.25em;
+    letter-spacing: 0.02em;
+}
